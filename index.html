@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./assests/style.css">
     <title>prework-study-guide</title>
 </head>
 <body>
@@ -22,6 +23,8 @@ alt="Profile image of cat wearing a bowtie."/>
         <h2>CSS</h2>
         <ul>
             <li>Enter your CSS notes here</li>
+            <li>A margin indicates how much space we want around the outside of an element.</li>
+            <li>A padding indicates how much space we want around the content inside an element.</li>
         </ul>
     </section>
 <section class="card" id="git-section">
@@ -44,3 +47,33 @@ alt="Profile image of cat wearing a bowtie."/>
 </footer>
 </header>
 </html>
+* {
+    margin: 0;
+    padding: 0;}
+ header,
+ footer{
+    width: 100%;
+height: 120px;
+backgound-color: blue;
+color: white;} 
+h1,
+h2{
+    text-align: center;}
+img {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;}
+ul {
+    padding-left: 40px;
+    font-size: 20px;}
+p {
+    text-align: center;
+    font-size: 30px;}
+.card {
+    width: 80%;
+    margin: 40px auto;
+    border: 5px solid gray;
+    box-shadow: 5px 10px #888888;
+}
